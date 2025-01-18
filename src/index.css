@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes blob {
+  0% {
+    transform: translate(0px, 0px) scale(1);
+  }
+  33% {
+    transform: translate(20px, -40px) scale(0.9);
+  }
+  66% {
+    transform: translate(-20px, 20px) scale(0.8);
+  }
+  100% {
+    transform: translate(0px, 0px) scale(1);
+  }
+}
+
+@layer utilities {
+  .animation-delay-2000 {
+    animation-delay: 2s;
+  }
+  .animation-delay-4000 {
+    animation-delay: 4s;
+  }
+  .animate-blob {
+    animation: blob 8s infinite;
+  }
+}
+
+@font-face{
+  font-family: myFont;
+  src : url(../src/font/Chillen.ttf)
+}
+
+@font-face{
+  font-family: myFont2;
+  src : url(../src/font/ValentineSoul.ttf)
+}
+
+#tittle{
+  font-family: myFont;
+}
+#mini-tittre{
+  font-family: myFont2;
+  font-size: 4rem;
+  margin-bottom: 60px;
+}
+#Logo{
+  color: black;
+  font-family: myFont2;
+}
