@@ -1,5 +1,5 @@
 import React from 'react';
-import { motion, useInView } from 'framer-motion';
+import { motion } from 'framer-motion';
 import FoodIconImg from "../../images/kebab.png";
 import HeroImg from "../../images/nachos.png";
 import About_us from '../About_us/About_us';
