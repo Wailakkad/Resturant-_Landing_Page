@@ -6,6 +6,7 @@ import About_us from '../About_us/About_us';
 import Popular from '../Popular/Popular';
 import Action from '../Action/Action';
 import Subscribe from '../Subscribe/Subscribe';
+import AboutUs from '../About_us/About_us';
 
 const Hero = () => {
   const fadeInUp = {
@@ -140,7 +141,7 @@ const Hero = () => {
           />
         </motion.div>
       </motion.div>
-      <About_us/>
+      <AboutUs/>
       <Popular/>
       <Action/>
       <Subscribe/>

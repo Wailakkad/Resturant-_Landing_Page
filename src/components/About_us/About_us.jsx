@@ -4,7 +4,7 @@ import PlacIcon from "../../images/play-button.png";
 import SaladImage from "../../images/salad.png";
 import IconSalad from "../../images/spinach.png";
 
-const About_us = () => {
+const AboutUs = () => {
   // Refs for scroll monitoring
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true }); // Animation triggers only once when in view
@@ -123,4 +123,4 @@ const About_us = () => {
   );
 };
 
-export default About_us;
+export default AboutUs;
