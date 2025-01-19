@@ -83,7 +83,7 @@ const Navbar = () => {
             className="flex items-center gap-2 px-4 py-2 rounded-full bg-gradient-to-r from-[#a3b18a] to-[#3a5a40] text-white font-medium transition-all duration-300 hover:shadow-lg hover:scale-105"
           >
             <LogIn size={18} />
-            <span>Contact us</span>
+            <span>Contact_us</span>
           </Link>
         </motion.div>
       </div>
