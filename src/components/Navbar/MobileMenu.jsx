@@ -1,6 +1,6 @@
 import React from 'react'
 import { motion , AnimatePresence } from 'framer-motion'
-import { useNavigate , Link } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
 const MobileMenu = ({open}) => {
   return (
