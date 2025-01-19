@@ -2,7 +2,6 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import FoodIconImg from "../../images/kebab.png";
 import HeroImg from "../../images/nachos.png";
-import AboutUs from '../About_us/About_us';
 import Popular from '../Popular/Popular';
 import Action from '../Action/Action';
 import Subscribe from '../Subscribe/Subscribe';
